@@ -390,6 +390,27 @@
           <!--Footer 3-->
           <div class="footer-newsletter">
             <b class="footer-heading">Subscribe</b>
+            <form name="email_newsletter" autocomplete="on" novalidate>
+              <!-- E-mail -->
+              <label class="form-newsletter">
+                <span class="form-label">E-mail</span>
+                <input
+                  class="form-input-newsletter"
+                  type="email"
+                  name="user-email"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+              <button class="newsletter-button button" type="submit">
+                <span class="newsletter-button-container">
+                  Subscribe
+                  <svg class="newsletter-icon" width="24" height="20">
+                    <use href="./images/icons.svg#icon-newsletter"></use>
+                  </svg>
+                </span>
+              </button>
+            </form>
           </div>
         </div>
       </div>
