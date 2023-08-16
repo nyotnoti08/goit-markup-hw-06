@@ -535,9 +535,12 @@ body {
 
 .form-input-newsletter {
   background: transparent;
-  margin-top: 20px;
+  margin-top: 16px;
   margin-right: 20px;
+  font-size: 12px;
   outline: none;
+  height: 40px;
+  width: 264px;
   padding: 11px 16px 11px 10px;
   border: 1px solid white;
   border-radius: 4px;
@@ -827,8 +830,6 @@ body {
 
 .modal-user-icon {
   position: absolute;
-  width: 18px;
-  height: 18px;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -865,7 +866,7 @@ body {
   border: 1px solid var(--lightslate);
   border-radius: 2px;
   display: inline-block;
-  width: 18px;
+  width: 16px;
 }
 
 .agree-text {
